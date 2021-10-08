@@ -7,20 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lufia II</title>
-    <style>
-        picture img {
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="about/">About</a></li>
-                <li><a href="form/">Form</a></li>
+                <li class="hrefSpacing"><a href="#">Home</a></li>
+                <li class="hrefSpacing"><a href="about/">About</a></li>
+                <li class="hrefSpacing"><a href="form/">Form</a></li>
             </ul>
         </nav>
     </header>
@@ -32,17 +34,15 @@
         <img src="images/hero-900.jpg" alt="SNES image">
     </picture>
 
-    <img src="images/Lufia_II.jpg" alt="Lufia II Picture" width="600">
+    
     <h1>Lufia II Rise of the Sinstrals</h1>
     <main>
-        <svg viewBox="0 0 200 200" width="200" height="200">
-            <circle cx="50" cy="50" r="50" fill=red />
-          </svg>
         <article>
             <h2>Storyline</h2>
             <p>The game is a prequel to Lufia & the Fortress of Doom. It follows the story of the first main character's
                 ancestor, Maxim, and explains the origins of the war between mankind and a group of gods called the
                 Sinistrals.</p>
+                <img src="images/Lufia_II.jpg" alt="Lufia II Picture" width="600">
             <h2>Stats</h2>
             <p>Each of these stats may increase after leveling up</p>
             <dl>
@@ -61,10 +61,17 @@
                 <dt>INT</dt>
                 <dd>Intelligence Points (Strength of Magic)</dd>
                 <dt>GUT</dt>
-                <dd>How Brave your Character Is (mainly affects capsule monsters if they will run or not</dd>
+                <dd>How Brave your Character Is (mainly affects capsule monsters if they will run or not)</dd>
                 <dt>MGR</dt>
                 <dd>Magic Resistence (Defense for Magic)</dd>
             </dl>
+
+            <div>
+                <a class="button converse">Learn More</a>
+                
+              </div>
+
+            
         </article>
         <article>
             <h2>Gades: The Impossible Boss</h2>
@@ -74,6 +81,14 @@
                 <img src="images/Gades_LufiaII.gif" alt="Gades Picture" width="400">
                 <figcaption>Gades Battle</figcaption>
             </figure>
+
+
+            <div>
+                <a class="button converse">More Info</a>
+                
+              </div>
+
+            
         </article>
         <aside>
             <h3> <strong>Characters </strong></h3>
